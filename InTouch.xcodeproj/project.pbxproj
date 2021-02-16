@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6704D125D585770095765A /* InTouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704D025D585770095765A /* InTouchApp.swift */; };
+		BE6704D325D585770095765A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704D225D585770095765A /* WelcomeView.swift */; };
+		BE6704D525D585790095765A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6704D425D585790095765A /* Assets.xcassets */; };
+		BE6704D825D585790095765A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6704D725D585790095765A /* Preview Assets.xcassets */; };
+		BE6704F525D5B18C0095765A /* PrefaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704F425D5B18C0095765A /* PrefaceView.swift */; };
+		BEA9DF2525DB4F0800784BD9 /* LogoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DF2425DB4F0800784BD9 /* LogoTitle.swift */; };
+		BEA9DF2825DB549500784BD9 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DF2725DB549500784BD9 /* FriendsView.swift */; };
+		BEA9DF2B25DB5B5A00784BD9 /* AddFriendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DF2A25DB5B5A00784BD9 /* AddFriendButton.swift */; };
+		BECFB79525DAD1A00025A002 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFB79425DAD1A00025A002 /* LoadingView.swift */; };
+		BECFB79D25DAE6710025A002 /* UpperLeftLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFB79C25DAE6710025A002 /* UpperLeftLogo.swift */; };
+		BED5D68825D9DD0600625E00 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5D68725D9DD0600625E00 /* Friend.swift */; };
+		BED5D68F25D9F1EA00625E00 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5D68E25D9F1EA00625E00 /* LogoImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE6704CD25D585770095765A /* InTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6704D025D585770095765A /* InTouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InTouchApp.swift; path = InTouch/InTouchApp.swift; sourceTree = SOURCE_ROOT; };
+		BE6704D225D585770095765A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = InTouch/Views/WelcomeView.swift; sourceTree = SOURCE_ROOT; };
+		BE6704D425D585790095765A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE6704D725D585790095765A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE6704D925D585790095765A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE6704F425D5B18C0095765A /* PrefaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefaceView.swift; sourceTree = "<group>"; };
+		BEA9DF2425DB4F0800784BD9 /* LogoTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTitle.swift; sourceTree = "<group>"; };
+		BEA9DF2725DB549500784BD9 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		BEA9DF2A25DB5B5A00784BD9 /* AddFriendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendButton.swift; sourceTree = "<group>"; };
+		BECFB79425DAD1A00025A002 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BECFB79C25DAE6710025A002 /* UpperLeftLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperLeftLogo.swift; sourceTree = "<group>"; };
+		BED5D68725D9DD0600625E00 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		BED5D68E25D9F1EA00625E00 /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE6704CA25D585770095765A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE6704C425D585770095765A = {
+			isa = PBXGroup;
+			children = (
+				BE6704CF25D585770095765A /* InTouch */,
+				BE6704CE25D585770095765A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE6704CE25D585770095765A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE6704CD25D585770095765A /* InTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE6704CF25D585770095765A /* InTouch */ = {
+			isa = PBXGroup;
+			children = (
+				BE6704D025D585770095765A /* InTouchApp.swift */,
+				BE6704E025D5873A0095765A /* Views */,
+				BED5D68A25D9DD0D00625E00 /* Model */,
+				BE6704D425D585790095765A /* Assets.xcassets */,
+				BE6704D925D585790095765A /* Info.plist */,
+				BE6704D625D585790095765A /* Preview Content */,
+			);
+			path = InTouch;
+			sourceTree = "<group>";
+		};
+		BE6704D625D585790095765A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE6704D725D585790095765A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE6704E025D5873A0095765A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE6704D225D585770095765A /* WelcomeView.swift */,
+				BE6704F425D5B18C0095765A /* PrefaceView.swift */,
+				BEA9DF2725DB549500784BD9 /* FriendsView.swift */,
+				BECFB79425DAD1A00025A002 /* LoadingView.swift */,
+				BECFB79A25DAE5580025A002 /* Supporting Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BECFB79A25DAE5580025A002 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				BED5D68E25D9F1EA00625E00 /* LogoImage.swift */,
+				BEA9DF2A25DB5B5A00784BD9 /* AddFriendButton.swift */,
+				BECFB79C25DAE6710025A002 /* UpperLeftLogo.swift */,
+				BEA9DF2425DB4F0800784BD9 /* LogoTitle.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		BED5D68A25D9DD0D00625E00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BED5D68725D9DD0600625E00 /* Friend.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE6704CC25D585770095765A /* InTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6704DC25D585790095765A /* Build configuration list for PBXNativeTarget "InTouch" */;
+			buildPhases = (
+				BE6704C925D585770095765A /* Sources */,
+				BE6704CA25D585770095765A /* Frameworks */,
+				BE6704CB25D585770095765A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InTouch;
+			productName = InTouch;
+			productReference = BE6704CD25D585770095765A /* InTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE6704C525D585770095765A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BE6704CC25D585770095765A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = BE6704C825D585770095765A /* Build configuration list for PBXProject "InTouch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE6704C425D585770095765A;
+			productRefGroup = BE6704CE25D585770095765A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE6704CC25D585770095765A /* InTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE6704CB25D585770095765A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6704D825D585790095765A /* Preview Assets.xcassets in Resources */,
+				BE6704D525D585790095765A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE6704C925D585770095765A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6704F525D5B18C0095765A /* PrefaceView.swift in Sources */,
+				BE6704D325D585770095765A /* WelcomeView.swift in Sources */,
+				BED5D68F25D9F1EA00625E00 /* LogoImage.swift in Sources */,
+				BEA9DF2825DB549500784BD9 /* FriendsView.swift in Sources */,
+				BE6704D125D585770095765A /* InTouchApp.swift in Sources */,
+				BED5D68825D9DD0600625E00 /* Friend.swift in Sources */,
+				BEA9DF2525DB4F0800784BD9 /* LogoTitle.swift in Sources */,
+				BECFB79525DAD1A00025A002 /* LoadingView.swift in Sources */,
+				BECFB79D25DAE6710025A002 /* UpperLeftLogo.swift in Sources */,
+				BEA9DF2B25DB5B5A00784BD9 /* AddFriendButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE6704DA25D585790095765A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE6704DB25D585790095765A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE6704DD25D585790095765A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InTouch/Preview Content\"";
+				DEVELOPMENT_TEAM = 743XPG79GZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = misc.InTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE6704DE25D585790095765A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InTouch/Preview Content\"";
+				DEVELOPMENT_TEAM = 743XPG79GZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = misc.InTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE6704C825D585770095765A /* Build configuration list for PBXProject "InTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6704DA25D585790095765A /* Debug */,
+				BE6704DB25D585790095765A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6704DC25D585790095765A /* Build configuration list for PBXNativeTarget "InTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6704DD25D585790095765A /* Debug */,
+				BE6704DE25D585790095765A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE6704C525D585770095765A /* Project object */;
+}
