@@ -45,7 +45,6 @@ struct AddNewFriend: View {
                     }
                     .autocapitalization(.none)
                     .disableAutocorrection(true)
-                    
                     .font(.system(size: 20, weight: .light, design: .serif))
                 }
                 .padding(.leading, 60)
@@ -59,19 +58,6 @@ struct AddNewFriend: View {
                     }
                     .padding(.trailing, 20)
                     .padding(.top, 20)
-                    
-//                    Button(action: {
-//                        withAnimation {
-//                            self.showDetail.toggle()
-//                        }
-//                    }) {
-//                        Image("man1")
-//                            .scaledToFit()
-//                    }
-//                    .padding(.trailing, 20)
-//                    .padding(.top, 20)
-                    
-                    
                     
                     Spacer()
                     

@@ -1,21 +1,29 @@
 [
     {
         "title": "test1",
+        "firstName": "Will",
+        "lastName": "Lowry",
         "id": 1001,
         "imageName": "man1"
     },
     {
         "title": "test2",
+        "firstName": "Guy",
+        "lastName": "Gasper",
         "id": 1002,
         "imageName": "man2"
     },
     {
         "title": "test3",
+        "firstName": "Jack",
+        "lastName": "Gasper",
         "id": 1003,
         "imageName": "woman1"
     },
     {
         "title": "test4",
+        "firstName": "Danae",
+        "lastName": "Winia",
         "id": 1004,
         "imageName": "woman2"
     }

@@ -14,7 +14,7 @@ struct AvatarRow: View {
     var body: some View {
         
         HStack {
-            avatar.image
+            Image(avatar.imageName)
                 .resizable()
                 .frame(width: 200, height: 200)
         }
