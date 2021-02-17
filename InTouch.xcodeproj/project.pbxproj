@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4FCD7E25DB811D00145E49 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4FCD7D25DB811D00145E49 /* Avatar.swift */; };
+		BE4FCD8125DB889300145E49 /* AddNewFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4FCD8025DB889300145E49 /* AddNewFriend.swift */; };
 		BE6704D125D585770095765A /* InTouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704D025D585770095765A /* InTouchApp.swift */; };
 		BE6704D325D585770095765A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704D225D585770095765A /* WelcomeView.swift */; };
 		BE6704D525D585790095765A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6704D425D585790095765A /* Assets.xcassets */; };
 		BE6704D825D585790095765A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6704D725D585790095765A /* Preview Assets.xcassets */; };
 		BE6704F525D5B18C0095765A /* PrefaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704F425D5B18C0095765A /* PrefaceView.swift */; };
+		BE8AE73025DC39C7005916D4 /* avatars.json in Resources */ = {isa = PBXBuildFile; fileRef = BE8AE72F25DC39C7005916D4 /* avatars.json */; };
+		BE8AE73725DC3AC7005916D4 /* SingleAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE73625DC3AC7005916D4 /* SingleAvatar.swift */; };
+		BE8AE73A25DC3B4F005916D4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE73925DC3B4F005916D4 /* ModelData.swift */; };
+		BE8AE73D25DC3FA5005916D4 /* AvatarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE73C25DC3FA5005916D4 /* AvatarRow.swift */; };
+		BE8AE74325DC4CC9005916D4 /* AvatarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE74225DC4CC8005916D4 /* AvatarList.swift */; };
+		BE8AE74925DC541F005916D4 /* SelectAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE74825DC541F005916D4 /* SelectAvatarView.swift */; };
 		BEA9DF2525DB4F0800784BD9 /* LogoTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DF2425DB4F0800784BD9 /* LogoTitle.swift */; };
 		BEA9DF2825DB549500784BD9 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DF2725DB549500784BD9 /* FriendsView.swift */; };
 		BEA9DF2B25DB5B5A00784BD9 /* AddFriendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA9DF2A25DB5B5A00784BD9 /* AddFriendButton.swift */; };
@@ -22,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE4FCD7D25DB811D00145E49 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		BE4FCD8025DB889300145E49 /* AddNewFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFriend.swift; sourceTree = "<group>"; };
 		BE6704CD25D585770095765A /* InTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6704D025D585770095765A /* InTouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InTouchApp.swift; path = InTouch/InTouchApp.swift; sourceTree = SOURCE_ROOT; };
 		BE6704D225D585770095765A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = InTouch/Views/WelcomeView.swift; sourceTree = SOURCE_ROOT; };
@@ -29,6 +39,12 @@
 		BE6704D725D585790095765A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE6704D925D585790095765A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6704F425D5B18C0095765A /* PrefaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefaceView.swift; sourceTree = "<group>"; };
+		BE8AE72F25DC39C7005916D4 /* avatars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = avatars.json; sourceTree = "<group>"; };
+		BE8AE73625DC3AC7005916D4 /* SingleAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleAvatar.swift; path = InTouch/Model/SingleAvatar.swift; sourceTree = SOURCE_ROOT; };
+		BE8AE73925DC3B4F005916D4 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		BE8AE73C25DC3FA5005916D4 /* AvatarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarRow.swift; sourceTree = "<group>"; };
+		BE8AE74225DC4CC8005916D4 /* AvatarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarList.swift; sourceTree = "<group>"; };
+		BE8AE74825DC541F005916D4 /* SelectAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAvatarView.swift; sourceTree = "<group>"; };
 		BEA9DF2425DB4F0800784BD9 /* LogoTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTitle.swift; sourceTree = "<group>"; };
 		BEA9DF2725DB549500784BD9 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		BEA9DF2A25DB5B5A00784BD9 /* AddFriendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendButton.swift; sourceTree = "<group>"; };
@@ -71,6 +87,7 @@
 				BE6704D025D585770095765A /* InTouchApp.swift */,
 				BE6704E025D5873A0095765A /* Views */,
 				BED5D68A25D9DD0D00625E00 /* Model */,
+				BE8AE73225DC39CD005916D4 /* Resources */,
 				BE6704D425D585790095765A /* Assets.xcassets */,
 				BE6704D925D585790095765A /* Info.plist */,
 				BE6704D625D585790095765A /* Preview Content */,
@@ -93,15 +110,28 @@
 				BE6704F425D5B18C0095765A /* PrefaceView.swift */,
 				BEA9DF2725DB549500784BD9 /* FriendsView.swift */,
 				BECFB79425DAD1A00025A002 /* LoadingView.swift */,
+				BE4FCD8025DB889300145E49 /* AddNewFriend.swift */,
+				BE8AE74825DC541F005916D4 /* SelectAvatarView.swift */,
 				BECFB79A25DAE5580025A002 /* Supporting Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
+		BE8AE73225DC39CD005916D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE8AE72F25DC39C7005916D4 /* avatars.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BECFB79A25DAE5580025A002 /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
+				BE8AE74225DC4CC8005916D4 /* AvatarList.swift */,
+				BE8AE73C25DC3FA5005916D4 /* AvatarRow.swift */,
 				BED5D68E25D9F1EA00625E00 /* LogoImage.swift */,
+				BE4FCD7D25DB811D00145E49 /* Avatar.swift */,
 				BEA9DF2A25DB5B5A00784BD9 /* AddFriendButton.swift */,
 				BECFB79C25DAE6710025A002 /* UpperLeftLogo.swift */,
 				BEA9DF2425DB4F0800784BD9 /* LogoTitle.swift */,
@@ -112,6 +142,8 @@
 		BED5D68A25D9DD0D00625E00 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BE8AE73625DC3AC7005916D4 /* SingleAvatar.swift */,
+				BE8AE73925DC3B4F005916D4 /* ModelData.swift */,
 				BED5D68725D9DD0600625E00 /* Friend.swift */,
 			);
 			path = Model;
@@ -176,6 +208,7 @@
 			files = (
 				BE6704D825D585790095765A /* Preview Assets.xcassets in Resources */,
 				BE6704D525D585790095765A /* Assets.xcassets in Resources */,
+				BE8AE73025DC39C7005916D4 /* avatars.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,16 +219,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4FCD8125DB889300145E49 /* AddNewFriend.swift in Sources */,
+				BE8AE73D25DC3FA5005916D4 /* AvatarRow.swift in Sources */,
 				BE6704F525D5B18C0095765A /* PrefaceView.swift in Sources */,
+				BE8AE73A25DC3B4F005916D4 /* ModelData.swift in Sources */,
 				BE6704D325D585770095765A /* WelcomeView.swift in Sources */,
 				BED5D68F25D9F1EA00625E00 /* LogoImage.swift in Sources */,
 				BEA9DF2825DB549500784BD9 /* FriendsView.swift in Sources */,
 				BE6704D125D585770095765A /* InTouchApp.swift in Sources */,
 				BED5D68825D9DD0600625E00 /* Friend.swift in Sources */,
 				BEA9DF2525DB4F0800784BD9 /* LogoTitle.swift in Sources */,
+				BE8AE74925DC541F005916D4 /* SelectAvatarView.swift in Sources */,
+				BE8AE73725DC3AC7005916D4 /* SingleAvatar.swift in Sources */,
 				BECFB79525DAD1A00025A002 /* LoadingView.swift in Sources */,
+				BE4FCD7E25DB811D00145E49 /* Avatar.swift in Sources */,
 				BECFB79D25DAE6710025A002 /* UpperLeftLogo.swift in Sources */,
 				BEA9DF2B25DB5B5A00784BD9 /* AddFriendButton.swift in Sources */,
+				BE8AE74325DC4CC9005916D4 /* AvatarList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

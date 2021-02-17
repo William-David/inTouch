@@ -17,13 +17,11 @@ struct PrefaceView: View {
                 
                 VStack {
                     Spacer()
-                    
                     HStack {
                         Text("Keep in touch.")
                             .shadow(radius: 10)
                             .frame(width: 370)
                             .font(.system(size: 50, weight: .light, design: .serif))
-                            //.opacity(0.9)
                             .foregroundColor(Color("Primary"))
                         Spacer()
                     }
