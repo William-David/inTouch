@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct Avatar: View {
+    
+    var name: String
+    
     var body: some View {
         
-        Image("man1")
+        Image(name)
             .frame(width: 50, height: 50, alignment: .center)
             .scaledToFit()
             .overlay(
@@ -25,6 +28,6 @@ struct Avatar: View {
 
 struct Avatar_Previews: PreviewProvider {
     static var previews: some View {
-        Avatar()
+        Avatar(name: "man1")
     }
 }

@@ -13,7 +13,7 @@ struct SingleAvatar: Hashable, Codable, Identifiable {
     var id: Int
     var title: String
     
-    private var imageName: String
+    var imageName: String
     var image: Image {
         Image(imageName)
     }

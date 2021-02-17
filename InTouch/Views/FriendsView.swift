@@ -50,11 +50,11 @@ struct FriendsView: View {
             }
             .navigationBarHidden(true)
 
-            Avatar()
+            Avatar(name: avatars[0].imageName)
             
             if showDetail {
                 
-                Avatar()
+                Avatar(name : avatars[0].imageName)
                     .transition(.fade)
                 
                 AddNewFriend()
