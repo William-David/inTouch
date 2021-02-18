@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-@main
-struct InTouchApp: App {
-    var body: some Scene {
-        WindowGroup {
-            PrefaceView()
-        }
+struct RootView: View {
+    var body: some View {
+        PrefaceView()
     }
+}
+
+struct InTouchApp: App {
+    var body: some Scene { WindowGroup { RootView() } }
 }

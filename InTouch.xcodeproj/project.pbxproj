@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BE4FCD7E25DB811D00145E49 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4FCD7D25DB811D00145E49 /* Avatar.swift */; };
 		BE4FCD8125DB889300145E49 /* AddNewFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4FCD8025DB889300145E49 /* AddNewFriend.swift */; };
+		BE55AC1825DE149600CC6A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55AC1725DE149600CC6A20 /* AppDelegate.swift */; };
+		BE55AC1B25DE14BC00CC6A20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55AC1A25DE14BC00CC6A20 /* SceneDelegate.swift */; };
 		BE6704D125D585770095765A /* InTouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704D025D585770095765A /* InTouchApp.swift */; };
 		BE6704D325D585770095765A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704D225D585770095765A /* WelcomeView.swift */; };
 		BE6704D525D585790095765A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6704D425D585790095765A /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 /* Begin PBXFileReference section */
 		BE4FCD7D25DB811D00145E49 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		BE4FCD8025DB889300145E49 /* AddNewFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFriend.swift; sourceTree = "<group>"; };
+		BE55AC1725DE149600CC6A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE55AC1A25DE14BC00CC6A20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE6704CD25D585770095765A /* InTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6704D025D585770095765A /* InTouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InTouchApp.swift; path = InTouch/InTouchApp.swift; sourceTree = SOURCE_ROOT; };
 		BE6704D225D585770095765A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = InTouch/Views/WelcomeView.swift; sourceTree = SOURCE_ROOT; };
@@ -85,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				BE6704D025D585770095765A /* InTouchApp.swift */,
+				BE55AC1725DE149600CC6A20 /* AppDelegate.swift */,
+				BE55AC1A25DE14BC00CC6A20 /* SceneDelegate.swift */,
 				BE6704E025D5873A0095765A /* Views */,
 				BED5D68A25D9DD0D00625E00 /* Model */,
 				BE8AE73225DC39CD005916D4 /* Resources */,
@@ -231,9 +237,11 @@
 				BEA9DF2525DB4F0800784BD9 /* LogoTitle.swift in Sources */,
 				BE8AE74925DC541F005916D4 /* SelectAvatarView.swift in Sources */,
 				BE8AE73725DC3AC7005916D4 /* SingleAvatar.swift in Sources */,
+				BE55AC1825DE149600CC6A20 /* AppDelegate.swift in Sources */,
 				BECFB79525DAD1A00025A002 /* LoadingView.swift in Sources */,
 				BE4FCD7E25DB811D00145E49 /* Avatar.swift in Sources */,
 				BECFB79D25DAE6710025A002 /* UpperLeftLogo.swift in Sources */,
+				BE55AC1B25DE14BC00CC6A20 /* SceneDelegate.swift in Sources */,
 				BEA9DF2B25DB5B5A00784BD9 /* AddFriendButton.swift in Sources */,
 				BE8AE74325DC4CC9005916D4 /* AvatarList.swift in Sources */,
 			);
