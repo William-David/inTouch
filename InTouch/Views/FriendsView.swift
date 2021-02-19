@@ -32,6 +32,13 @@ struct FriendsView: View {
         
         ZStack {
             
+            
+            Circle()
+                .stroke(Color("Primary"))
+                .foregroundColor(Color("Background"))
+                .padding(.leading)
+                .padding(.trailing)
+            
             VStack {
                 HStack {
                     Spacer()
@@ -50,23 +57,18 @@ struct FriendsView: View {
             }
             .navigationBarHidden(true)
 
-            Avatar(image: avatars[0].imageName)
+            Avatar(image: avatars[0].imageName, avatarSize: 50, firstInitial: avatars[0].firstName.prefix(1), lastInitial: avatars[0].lastName.prefix(1))
             
             if showDetail {
                 
-                Avatar(image : avatars[0].imageName)
+                Avatar(image : avatars[0].imageName, avatarSize: 50)
                     .transition(.fade)
                 
                 AddNewFriend()
                     .transition(.moveAndFade)
                 
             }
-            
-            
         }
-        
-        
-        
     }
 }
 

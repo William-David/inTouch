@@ -53,8 +53,11 @@ struct AddNewFriend: View {
                     Spacer()
                     
                     NavigationLink(destination: SelectAvatarView()) {
-                        Image("man1")
-                            .scaledToFit()
+                        
+                        ZStack {
+                            Image("man1")
+                                .scaledToFit()
+                        }
                     }
                     .padding(.trailing, 20)
                     .padding(.top, 20)

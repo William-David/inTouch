@@ -10,15 +10,18 @@ import SwiftUI
 struct Avatar: View {
     
     var image: String
-    
+    var avatarSize: CGFloat
+    var firstInitial: String.SubSequence?
+    var lastInitial: String.SubSequence?
     
     var body: some View {
         
         Image(image)
-            .frame(width: 50, height: 50, alignment: .center)
+            //.resizable()
+            .frame(width: avatarSize, height: avatarSize)
             .scaledToFit()
             .overlay(
-                Text(avatars[0].firstName.prefix(1) + avatars[0].lastName.prefix(1))
+                Text(firstInitial! + lastInitial!)
                     .font(.system(size: 25, weight: .light, design: .serif))
                     .foregroundColor(Color("Background"))
                     .padding(.top, 55)
@@ -28,6 +31,6 @@ struct Avatar: View {
 
 struct Avatar_Previews: PreviewProvider {
     static var previews: some View {
-        Avatar(image: "man1")
+        Avatar(image: "man1", avatarSize: 50)
     }
 }
