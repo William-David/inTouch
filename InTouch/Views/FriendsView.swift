@@ -31,13 +31,21 @@ struct FriendsView: View {
     var body: some View {
         
         ZStack {
-            
-            
-            Circle()
-                .stroke(Color("Primary"))
-                .foregroundColor(Color("Background"))
-                .padding(.leading)
-                .padding(.trailing)
+  
+// Optional Circle Background (worst case scenario)
+/*
+            ZStack {
+                
+                Circle()
+                    .foregroundColor(Color("Background"))
+                    .shadow(radius: 20)
+                    .padding(.horizontal,20)
+                
+                Circle()
+                    .foregroundColor(Color("Background"))
+                    .padding(21)
+            }
+ */
             
             VStack {
                 HStack {
@@ -61,7 +69,7 @@ struct FriendsView: View {
             
             if showDetail {
                 
-                Avatar(image : avatars[0].imageName, avatarSize: 50)
+                Avatar(image : avatars[0].imageName, avatarSize: 50, firstInitial: avatars[0].firstName.prefix(1), lastInitial: avatars[0].lastName.prefix(1))
                     .transition(.fade)
                 
                 AddNewFriend()
