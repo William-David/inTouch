@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AvatarRow: View {
     
-    var avatar: SingleAvatar
+    var avatar: Person
     
     var body: some View {
         

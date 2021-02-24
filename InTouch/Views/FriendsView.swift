@@ -31,22 +31,7 @@ struct FriendsView: View {
     var body: some View {
         
         ZStack {
-  
-// Optional Circle Background (worst case scenario)
-/*
-            ZStack {
-                
-                Circle()
-                    .foregroundColor(Color("Background"))
-                    .shadow(radius: 20)
-                    .padding(.horizontal,20)
-                
-                Circle()
-                    .foregroundColor(Color("Background"))
-                    .padding(21)
-            }
- */
-            
+       
             VStack {
                 HStack {
                     Spacer()
@@ -64,12 +49,14 @@ struct FriendsView: View {
                 Spacer()
             }
             .navigationBarHidden(true)
-
-            Avatar(image: avatars[0].imageName, avatarSize: 50, firstInitial: avatars[0].firstName.prefix(1), lastInitial: avatars[0].lastName.prefix(1))
+            
+            PositionView()
+            
+            Me(person: avatars[0], size: 75)
             
             if showDetail {
                 
-                Avatar(image : avatars[0].imageName, avatarSize: 50, firstInitial: avatars[0].firstName.prefix(1), lastInitial: avatars[0].lastName.prefix(1))
+                Me(person: avatars[0], size: 75)
                     .transition(.fade)
                 
                 AddNewFriend()

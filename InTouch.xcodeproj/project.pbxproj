@@ -17,7 +17,7 @@
 		BE6704D825D585790095765A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6704D725D585790095765A /* Preview Assets.xcassets */; };
 		BE6704F525D5B18C0095765A /* PrefaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6704F425D5B18C0095765A /* PrefaceView.swift */; };
 		BE8AE73025DC39C7005916D4 /* avatars.json in Resources */ = {isa = PBXBuildFile; fileRef = BE8AE72F25DC39C7005916D4 /* avatars.json */; };
-		BE8AE73725DC3AC7005916D4 /* SingleAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE73625DC3AC7005916D4 /* SingleAvatar.swift */; };
+		BE8AE73725DC3AC7005916D4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE73625DC3AC7005916D4 /* Person.swift */; };
 		BE8AE73A25DC3B4F005916D4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE73925DC3B4F005916D4 /* ModelData.swift */; };
 		BE8AE73D25DC3FA5005916D4 /* AvatarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE73C25DC3FA5005916D4 /* AvatarRow.swift */; };
 		BE8AE74325DC4CC9005916D4 /* AvatarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8AE74225DC4CC8005916D4 /* AvatarList.swift */; };
@@ -28,8 +28,8 @@
 		BEC8809F25E0613B00C1FDC2 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC8809E25E0613A00C1FDC2 /* Position.swift */; };
 		BECFB79525DAD1A00025A002 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFB79425DAD1A00025A002 /* LoadingView.swift */; };
 		BECFB79D25DAE6710025A002 /* UpperLeftLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECFB79C25DAE6710025A002 /* UpperLeftLogo.swift */; };
-		BED5D68825D9DD0600625E00 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5D68725D9DD0600625E00 /* Friend.swift */; };
 		BED5D68F25D9F1EA00625E00 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5D68E25D9F1EA00625E00 /* LogoImage.swift */; };
+		BEDFE5A325E6AF4C00691D85 /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDFE5A225E6AF4C00691D85 /* Me.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +45,7 @@
 		BE6704D925D585790095765A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE6704F425D5B18C0095765A /* PrefaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefaceView.swift; sourceTree = "<group>"; };
 		BE8AE72F25DC39C7005916D4 /* avatars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = avatars.json; sourceTree = "<group>"; };
-		BE8AE73625DC3AC7005916D4 /* SingleAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SingleAvatar.swift; path = InTouch/Model/SingleAvatar.swift; sourceTree = SOURCE_ROOT; };
+		BE8AE73625DC3AC7005916D4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Person.swift; path = InTouch/Model/Person.swift; sourceTree = SOURCE_ROOT; };
 		BE8AE73925DC3B4F005916D4 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		BE8AE73C25DC3FA5005916D4 /* AvatarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarRow.swift; sourceTree = "<group>"; };
 		BE8AE74225DC4CC8005916D4 /* AvatarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarList.swift; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 		BEC8809E25E0613A00C1FDC2 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		BECFB79425DAD1A00025A002 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		BECFB79C25DAE6710025A002 /* UpperLeftLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperLeftLogo.swift; sourceTree = "<group>"; };
-		BED5D68725D9DD0600625E00 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		BED5D68E25D9F1EA00625E00 /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		BEDFE5A225E6AF4C00691D85 /* Me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Me.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +140,7 @@
 				BE8AE73C25DC3FA5005916D4 /* AvatarRow.swift */,
 				BED5D68E25D9F1EA00625E00 /* LogoImage.swift */,
 				BE4FCD7D25DB811D00145E49 /* Avatar.swift */,
+				BEDFE5A225E6AF4C00691D85 /* Me.swift */,
 				BEA9DF2A25DB5B5A00784BD9 /* AddFriendButton.swift */,
 				BECFB79C25DAE6710025A002 /* UpperLeftLogo.swift */,
 				BEA9DF2425DB4F0800784BD9 /* LogoTitle.swift */,
@@ -150,10 +151,9 @@
 		BED5D68A25D9DD0D00625E00 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BE8AE73625DC3AC7005916D4 /* SingleAvatar.swift */,
+				BE8AE73625DC3AC7005916D4 /* Person.swift */,
 				BEC8809E25E0613A00C1FDC2 /* Position.swift */,
 				BE8AE73925DC3B4F005916D4 /* ModelData.swift */,
-				BED5D68725D9DD0600625E00 /* Friend.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,12 +236,12 @@
 				BED5D68F25D9F1EA00625E00 /* LogoImage.swift in Sources */,
 				BEA9DF2825DB549500784BD9 /* FriendsView.swift in Sources */,
 				BE6704D125D585770095765A /* InTouchApp.swift in Sources */,
-				BED5D68825D9DD0600625E00 /* Friend.swift in Sources */,
 				BEA9DF2525DB4F0800784BD9 /* LogoTitle.swift in Sources */,
 				BE8AE74925DC541F005916D4 /* SelectAvatarView.swift in Sources */,
-				BE8AE73725DC3AC7005916D4 /* SingleAvatar.swift in Sources */,
+				BE8AE73725DC3AC7005916D4 /* Person.swift in Sources */,
 				BE55AC1825DE149600CC6A20 /* AppDelegate.swift in Sources */,
 				BECFB79525DAD1A00025A002 /* LoadingView.swift in Sources */,
+				BEDFE5A325E6AF4C00691D85 /* Me.swift in Sources */,
 				BE4FCD7E25DB811D00145E49 /* Avatar.swift in Sources */,
 				BECFB79D25DAE6710025A002 /* UpperLeftLogo.swift in Sources */,
 				BE55AC1B25DE14BC00CC6A20 /* SceneDelegate.swift in Sources */,

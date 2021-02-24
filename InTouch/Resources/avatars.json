@@ -3,6 +3,8 @@
         "title": "test1",
         "firstName": "Will",
         "lastName": "Lowry",
+        "time": 10,
+        "timeLeft": 9,
         "id": 1001,
         "imageName": "man1"
     },
@@ -10,6 +12,8 @@
         "title": "test2",
         "firstName": "Guy",
         "lastName": "Gasper",
+        "time": 10,
+        "timeLeft": 9,
         "id": 1002,
         "imageName": "man2"
     },
@@ -17,6 +21,8 @@
         "title": "test3",
         "firstName": "Jack",
         "lastName": "Gasper",
+        "time": 10,
+        "timeLeft": 9,
         "id": 1003,
         "imageName": "woman1"
     },
@@ -24,7 +30,18 @@
         "title": "test4",
         "firstName": "Danae",
         "lastName": "Winia",
+        "time": 10,
+        "timeLeft": 9,
         "id": 1004,
         "imageName": "woman2"
+    },
+    {
+        "title": "test5",
+        "firstName": "Danny",
+        "lastName": "DeVito",
+        "time": 10,
+        "timeLeft": 9,
+        "id": 1005,
+        "imageName": "man2"
     }
 ]

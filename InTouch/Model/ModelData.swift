@@ -7,7 +7,7 @@
 
 import Foundation
 
-var avatars: [SingleAvatar] = load("avatars.json")
+var avatars: [Person] = load("avatars.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

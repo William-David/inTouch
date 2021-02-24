@@ -10,9 +10,9 @@ import SwiftUI
 struct AvatarList: View {
     var body: some View {
         
-        List(avatars, id: \.id) { SingleAvatar in
+        List(avatars, id: \.id) { Person in
             Spacer()
-            AvatarRow(avatar: SingleAvatar)
+            AvatarRow(avatar: Person)
             Spacer()
         }
         

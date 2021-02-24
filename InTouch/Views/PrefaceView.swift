@@ -51,6 +51,8 @@ struct PrefaceView: View {
                     }
                     
                     Spacer()
+                    Spacer()
+                    Spacer()
                     
                     NavigationLink(destination: WelcomeView()) {
                         HStack {
