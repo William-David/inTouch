@@ -36,6 +36,7 @@ struct AddNewFriend: View {
                     Text("Who's Next?")
                         .font(.system(size: 20, weight: .light, design: .serif))
                         .foregroundColor(Color("Primary"))
+                        .padding(.leading, -15)
                     
                     TextField(
                         "Name:",
@@ -59,7 +60,7 @@ struct AddNewFriend: View {
                                 .scaledToFit()
                         }
                     }
-                    .padding(.trailing, 20)
+                    .padding()
                     .padding(.top, 20)
                     
                     Spacer()

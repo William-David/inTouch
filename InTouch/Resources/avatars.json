@@ -5,7 +5,7 @@
         "lastName": "Lowry",
         "time": 10,
         "timeLeft": 9,
-        "id": 1001,
+        "id": 0,
         "imageName": "man1"
     },
     {
@@ -14,7 +14,7 @@
         "lastName": "Gasper",
         "time": 10,
         "timeLeft": 9,
-        "id": 1002,
+        "id": 1,
         "imageName": "man2"
     },
     {
@@ -23,7 +23,7 @@
         "lastName": "Gasper",
         "time": 10,
         "timeLeft": 9,
-        "id": 1003,
+        "id": 2,
         "imageName": "woman1"
     },
     {
@@ -32,7 +32,7 @@
         "lastName": "Winia",
         "time": 10,
         "timeLeft": 9,
-        "id": 1004,
+        "id": 3,
         "imageName": "woman2"
     },
     {
@@ -41,7 +41,7 @@
         "lastName": "DeVito",
         "time": 10,
         "timeLeft": 9,
-        "id": 1005,
+        "id": 4,
         "imageName": "man2"
     }
 ]

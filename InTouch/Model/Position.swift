@@ -12,18 +12,15 @@ class Position {
 
     let time: Double
     let timeLeft: Double
-    let totalAvatars: Double = 5
-    // ISSUE: all indexes are the same due to multiplePeople.count
+    let totalAvatars: Int = avatars.count
     var index: Int
-    
     let radius: Double = 170 // Temp placeholder values
-    var singleDegree: Double = 360 / 5 // will have to change # of total avatars
+    var singleDegree = 360 / Double(avatars.count)
     
-    init(person: Person, index: Int) {
+    init(person: Person) {
         self.index = person.id
         self.time = person.time
         self.timeLeft = person.timeLeft
-        //self.totalAvatars = totalAvatars // passing in total avatars will be the way
     }
     
     func getDegrees() -> Double {
@@ -38,8 +35,8 @@ class Position {
     func setPosition(degree: Double) -> (Double, Double) {
 
         singleDegree *= Double(index)
-        var xIncrement = cos((singleDegree * .pi) / 180)// * (radius * (timeLeft / time)))
-        var yIncrement = sin((singleDegree * .pi) / 180)// * (radius * (timeLeft / time)))
+        var xIncrement = cos((singleDegree * .pi) / 180)
+        var yIncrement = sin((singleDegree * .pi) / 180)
         xIncrement *= (radius * (timeLeft / time))
         yIncrement *= (radius * (timeLeft / time))
         
@@ -53,7 +50,7 @@ struct PositionView: View {
         ZStack {
             ForEach(avatars) { singlePerson in
                 // Create position based off person
-                let pos = Position(person: singlePerson, index: avatars.count)
+                let pos = Position(person: singlePerson)
                 // Retrieve the new position based off the new degrees
                 let (x, y) = pos.setPosition(degree: pos.getDegrees())
 

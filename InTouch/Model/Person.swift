@@ -16,9 +16,6 @@ struct Person: Hashable, Codable, Identifiable {
     var lastName: String
     let time: Double
     let timeLeft: Double
-    // var frequency: Int = Frequency of Reaching out
-    // var timeHorizon: Int = Days until "out of touch"
-    // var currentDistance: Float = timeHorizon/fequency
     
     var imageName: String
     private var image: Image {
