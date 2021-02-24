@@ -8,6 +8,6 @@ The idea is simple: We all have friends in our lives that we wish we reached out
 
 ![Dashboard](https://github.com/William-David/inTouch/blob/master/InTouch/Assets.xcassets/Screenshots/Dashboard.imageset/Dashboard.png?raw=true)
 
-![Select Avatar](https://github.com/William-David/inTouch/blob/master/InTouch/Assets.xcassets/Screenshots/Select%20Avatar.imageset/Select%20Avatar.png?raw=true)
-
 ![Add Friend Screen](https://github.com/William-David/inTouch/blob/master/InTouch/Assets.xcassets/Screenshots/Add%20a%20Friend.imageset/Add%20a%20Friend.png?raw=true)
+
+![Select Avatar](https://github.com/William-David/inTouch/blob/master/InTouch/Assets.xcassets/Screenshots/Select%20Avatar.imageset/Select%20Avatar.png?raw=true)
