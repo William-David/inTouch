@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		838D88B5FA64EA04F6F35DFA /* Pods_InTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D686857F6ADD27B6A70978 /* Pods_InTouch.framework */; };
 		BE4FCD7E25DB811D00145E49 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4FCD7D25DB811D00145E49 /* Avatar.swift */; };
 		BE4FCD8125DB889300145E49 /* AddNewFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4FCD8025DB889300145E49 /* AddNewFriend.swift */; };
 		BE55AC1825DE149600CC6A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55AC1725DE149600CC6A20 /* AppDelegate.swift */; };
@@ -33,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		367152DDA7594A13E515F0F9 /* Pods-InTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InTouch.debug.xcconfig"; path = "Target Support Files/Pods-InTouch/Pods-InTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		8C6EC84BEBBC73647A5DB9AA /* Pods-InTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InTouch.release.xcconfig"; path = "Target Support Files/Pods-InTouch/Pods-InTouch.release.xcconfig"; sourceTree = "<group>"; };
+		A4D686857F6ADD27B6A70978 /* Pods_InTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4FCD7D25DB811D00145E49 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		BE4FCD8025DB889300145E49 /* AddNewFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewFriend.swift; sourceTree = "<group>"; };
 		BE55AC1725DE149600CC6A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,17 +69,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838D88B5FA64EA04F6F35DFA /* Pods_InTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		778DB96E6307F71DDE316F88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D686857F6ADD27B6A70978 /* Pods_InTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE6704C425D585770095765A = {
 			isa = PBXGroup;
 			children = (
 				BE6704CF25D585770095765A /* InTouch */,
 				BE6704CE25D585770095765A /* Products */,
+				DEB0AE6347E896F8654F3231 /* Pods */,
+				778DB96E6307F71DDE316F88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +173,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		DEB0AE6347E896F8654F3231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				367152DDA7594A13E515F0F9 /* Pods-InTouch.debug.xcconfig */,
+				8C6EC84BEBBC73647A5DB9AA /* Pods-InTouch.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE6704DC25D585790095765A /* Build configuration list for PBXNativeTarget "InTouch" */;
 			buildPhases = (
+				CFF744309FDCADCE60617AF1 /* [CP] Check Pods Manifest.lock */,
 				BE6704C925D585770095765A /* Sources */,
 				BE6704CA25D585770095765A /* Frameworks */,
 				BE6704CB25D585770095765A /* Resources */,
+				43A3170CE91E1E20ECEE10A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,6 +249,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A3170CE91E1E20ECEE10A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InTouch/Pods-InTouch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InTouch/Pods-InTouch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InTouch/Pods-InTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF744309FDCADCE60617AF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InTouch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE6704C925D585770095765A /* Sources */ = {
@@ -372,6 +441,7 @@
 		};
 		BE6704DD25D585790095765A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367152DDA7594A13E515F0F9 /* Pods-InTouch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -394,6 +464,7 @@
 		};
 		BE6704DE25D585790095765A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6EC84BEBBC73647A5DB9AA /* Pods-InTouch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
